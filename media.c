@@ -10,13 +10,12 @@ int main () {
         printf("Digite a %do nota: ",i);
         scanf("%d",&media[i]);
     }
-    printf("\n");
-
+    
     for(i=1;i<=5;i++){
         calc += media[i];
     }
     resultado = calc/5;
-    printf("A media final eh = %.1lf\n",resultado);
+    printf("\nA media final eh = %.1lf\n",resultado);
 
     return 0;
 }
